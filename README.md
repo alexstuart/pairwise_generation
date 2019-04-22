@@ -10,6 +10,16 @@ https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject
 
 Author: Alex Stuart, alex.stuart@jisc.ac.uk
 
+## How to use
+
+- pairwise_generation.py should be at /usr/lib/python3.4/site-packages/satosa/micro_services/pairwise_generation.py
+- pairwise_generation.yaml should be at /etc/satosa/plugins/microservices/pairwise_generation.yaml 
+- edit /etc/satosa/proxy_conf.yaml to include   
+```
+MICRO_SERVICES:
+  - /etc/satosa/plugins/microservices/pairwise_generation.yaml
+```
+
 ## Copyright and License
 
 The contents of this repository are Copyright (C) the named contributors or their

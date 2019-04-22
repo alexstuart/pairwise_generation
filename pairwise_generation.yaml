@@ -1,0 +1,2 @@
+module: satosa.micro_services.pairwise_generation.AddPairwiseAttribute
+name: AddPairwiseAttribute
