@@ -12,9 +12,9 @@ Author: Alex Stuart, alex.stuart@jisc.ac.uk
 
 ## How to use
 
-- pairwise_generation.py should be at /usr/lib/python3.4/site-packages/satosa/micro_services/pairwise_generation.py
-- pairwise_generation.yaml should be at /etc/satosa/plugins/microservices/pairwise_generation.yaml 
-- edit /etc/satosa/proxy_conf.yaml to include   
+- `pairwise_generation.py` should be at `/usr/lib/python3.4/site-packages/satosa/micro_services/pairwise_generation.py`
+- `pairwise_generation.yaml` should be at `/etc/satosa/plugins/microservices/pairwise_generation.yaml`
+- edit `/etc/satosa/proxy_conf.yaml` to include
 ```
 MICRO_SERVICES:
   - /etc/satosa/plugins/microservices/pairwise_generation.yaml
