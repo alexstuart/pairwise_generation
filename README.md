@@ -19,6 +19,12 @@ Author: Alex Stuart, alex.stuart@jisc.ac.uk
 MICRO_SERVICES:
   - /etc/satosa/plugins/microservices/pairwise_generation.yaml
 ```
+- Internal attributes defined in `/etc/satosa/internal_attributes.yaml` should include
+```
+  pairwise-id:
+    saml: [pairwise-id]
+```
+- Ensure pairwise-id is in pySAML2 attribute map, for example by updating `/usr/lib/python3.4/site-packages/saml2/attributemaps/saml_uri.py` with changes at https://github.com/IdentityPython/pysaml2/pull/607
 
 ## Copyright and License
 
